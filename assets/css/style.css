@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -29,7 +30,6 @@ header nav a {
 header nav ul li {
     display: inline;
 }
-
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
@@ -48,4 +48,27 @@ body div {
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
+/* Footer styling */
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+footer a {
+    color: #024e76;
 }
