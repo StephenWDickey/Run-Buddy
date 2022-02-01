@@ -7,6 +7,10 @@
 }
 
 
+
+
+
+
 /* header styling */
 header {
     padding: 20px 35px;
@@ -37,11 +41,20 @@ header nav ul li a {
 }
 
 
+
+
+
+
 /*universal body css*/
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
+
+
+
+
+
 
 
 
@@ -104,6 +117,10 @@ h3 {
 }
 
 
+
+
+
+
 /* Section 2 styling */
 .intro {
     text-align: center;
@@ -117,6 +134,11 @@ h3 {
     font-size: 20px;
     margin: 0 auto;
 }
+
+
+
+
+
 
 /* here we have consolidated the styling for some elements so we don't DRY-don't repeat yourself */
 .section-title {
@@ -220,6 +242,42 @@ h3 {
 .text-right {
     text-align: right;
 }
+
+
+
+
+
+
+
+
+/* Section 5 styling */
+
+.contact {
+    text-align: center;
+    background: #024e76;
+}
+
+.contact h2 {
+    color: #fce138;
+}
+
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+}
+
+.contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+}
+
+
+
+
 
 
 
