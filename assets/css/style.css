@@ -40,6 +40,9 @@ header nav ul li a {
     font-size: 22px;
 }
 
+header nav {
+    float: right;
+}
 
 
 
