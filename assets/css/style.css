@@ -1,11 +1,45 @@
 /* styling for our Run Buddy page! */
 
+
+/* some universal styling */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
 
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+
+/* here we have consolidated the styling for some elements so we don't DRY-don't repeat yourself */
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+.flex-row {
+    display: flex;
+}
 
 
 
@@ -50,22 +84,6 @@ header nav ul li a {
 header nav {
     margin: 7px 0;
 }
-
-
-
-
-
-/*universal body css*/
-body {
-    color: #39a6b2;
-    font-family: Helvetica, Arial, sans-serif;
-  }
-
-
-
-
-
-
 
 
 
@@ -160,31 +178,6 @@ h3 {
 
 
 
-/* here we have consolidated the styling for some elements so we don't DRY-don't repeat yourself */
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
-
-.flex-row {
-    display: flex;
-}
-
-
-
 
 /* Section 3 styling */
 
@@ -243,6 +236,9 @@ h3 {
 
 
 
+
+
+
 /* Section 4 styling */
 
 .trainers {
@@ -294,6 +290,27 @@ h3 {
 
 /* Section 5 styling */
 
+.contact-form input, .contact-form textarea {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+}
+
 .contact {
     background: #024e76;
 }
@@ -302,17 +319,17 @@ h3 {
     color: #fce138;
 }
 
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .contact-info iframe {
-    width: 400px;
     height: 400px;
 }
 
 .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
     color: white;
 }
 
@@ -324,13 +341,15 @@ h3 {
 .contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
 }
 
 .contact-info a {
     color: #fce138;
 }
+
+
 
 
 
@@ -360,4 +379,3 @@ footer a {
 
 
 
-/* Privacy Policy styling */
